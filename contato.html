@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./outros.css">
+    <title>Cinema Cinesenac - Batman</title>
+</head>
+
+<body>
+
+    <!--1° Cabeçalho-------------------------------->
+    <header>
+        <!--adicionando uma imagem-->
+        <!--nome da tag img é id="logo"-->
+        <img id="logo" src="./img/fundos-do-batman.jpg" alt="Logo Batman">
+        <!--Criando nossa  barra de navegação com as tags nav e lista com ul e li-->
+        <nav>
+            <!--Criando nossa  lista com os links das páginas-->
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <!--link 2---------------->
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <!--link3------->
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <!--link4------>
+                <a href="./localizacao.html">
+                    <li>Localização</li>
+                </a>
+            </ul>
+
+        </nav>
+
+    </header>
+<!----------------Cabeçalho finalizado--------------------------->
+<!--------------------------Iniciando banner---------------------------------------->
+<div id="banner"></div>
+
+
+
+
+
+<!-- esta parte esta sendo estilizada pelo outro.css -->
+   
+<div class="contato">
+
+<h1>formulario de contato</h1>
+
+</div>
+<!-- formulario -->
+<div class="form-container">
+
+    <form class="formulario" action="https://formsubmit.co/allasshhhsshs@gmail.com" method="POST">
+        
+       <div>
+      <input type="hidden" name="next" value="./sucesso.html">
+       </div> 
+<div>
+    <input type="hidden" name="_autoresponse" value="recebemos sua mensagem,obrigado pelo contato e logo responderemos"/>
+</div>
+  <!-- input do nome -->
+  <div>
+<label for="name">nome</label>
+<input type="text" id="nome" name="nome" required placeholder="digite seu nome"/>
+</div>
+<!-- input telefone -->
+<div>
+    <label for="telefone">telefone</label>
+    <input type="text"id="telefone" name="telefone" required placeholder="telefone"/> 
+</div>
+<!-- input email -->
+<div>
+<label for="e-mail">e-mail:</label>
+<input type="email" id="email" name="email" required placeholder="email"/>
+</div>
+<!-- assunto -->
+<div>
+    <label for="assunto">assunto</label>
+    <input type="text" id="assunto" name="assunto" required placeholder="assunto"/>
+
+</div>
+<!-- textarea  -->
+<div>
+    <label for="msg">mensagem</label>
+    <textarea id="msg" name="msg" required rows="10" placeholder="mensagem"></textarea> 
+</div>
+
+<!-- botao enviar -->
+<div>
+    <button type="submit">enviar sua mensagem</button>
+</div>
+
+</div>
+
+
+
+ </form>
+
+
+
+
+
+</div>
+
+
+
+    <!-- finalizado pate estilizada pelo outro.css -->
+
+
+<!-- footer -> rodapé -> collocamos (a logo nossa imagem), -->
+<!-- (textos todos os direitos reservados),(por quem foi desemvolvido essa pagina) -->
+<!-- (vamos ter uma navegação quando for usar o celularar) -->
+
+
+
+<footer>
+    <!-- sejam redimensionada para caber completamwnte dentro do container, mantendo sua proporção original, -->
+    <!-- style=" object-fit: contain; -->
+    <img id="logo" style="object-fit: contain;" src="./img/logo-batman.png" alt="logo Batman">
+    <span class="footer-texto">todos os direitos reservados © 2024 </span>
+    <span class="footer-texto">desenvolvido por;allan</span>
+
+    <nav class="footer-navigation">
+        <ul class="footer-list">
+        <a href="./index.html">
+            <li>Home</li>
+        </a>
+        <a href="./contato.html">
+            <li>contato</li>
+        </a>
+        <a href="./fotos.html">
+            <li>fotos</li>
+        </a>
+        <a href="./localizacao.html">
+            <li>Localização</li>
+        </a>
+        
+        </ul>
+        
+        </nav>
+
+
+</footer>
+</body>
+
+</html>
